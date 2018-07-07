@@ -1,0 +1,22 @@
+{
+  "name": "BSButton",
+  "version": "0.1.0",
+  "summary": "A short description of BSButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Zafer AYAN/BSButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zafer AYAN": "ozcanzaferayan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Zafer AYAN/BSButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BSButton/Classes/**/*"
+}
