@@ -10,5 +10,5 @@ language: swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- xcodebuild clean build test -project BSButton.xcodeproj -scheme BSButton -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' CODE_SIGNING_REQUIRED=NO | xcpretty
+- xcodebuild clean build test -project _Pods.xcodeproj -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' CODE_SIGNING_REQUIRED=NO | xcpretty
 - pod lib lint --swift-version=4.1
