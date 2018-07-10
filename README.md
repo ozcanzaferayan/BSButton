@@ -9,6 +9,8 @@
 
 BSButton is a subclass of UIButton, written in swift, that apply styles like Bootstrap buttons.
 
+![BSButton screen recording](https://raw.githubusercontent.com/ozcanzaferayan/BSButton/master/Screenshots/BSButton_screen_recording.gif "BSButton screen recording")
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
