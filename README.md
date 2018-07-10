@@ -15,11 +15,6 @@ BSButton is a subclass of UIButton, written in swift, that apply styles like Boo
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
-* ARC
-* iOS8
-
 ## Installation with CocoaPods
 
 BSButton is available through [CocoaPods](https://cocoapods.org). To install
@@ -27,6 +22,13 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'BSButton'
+# Workaround for Cocoapods issue #7606
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings.delete('CODE_SIGNING_ALLOWED')
+    config.build_settings.delete('CODE_SIGNING_REQUIRED')
+  end
+end
 ```
 
 ## Usage
